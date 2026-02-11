@@ -1,0 +1,34 @@
+name: titulo-propio-ia
+channels:
+  - conda-forge
+dependencies:
+  # Python
+  - python=3.10
+
+  # Core scientific stack
+  - numpy=1.26
+  - scipy=1.11
+  - pandas=2.1
+  - matplotlib=3.8
+  - seaborn=0.13
+
+  # Jupyter
+  - jupyterlab=4.0
+  - notebook=7.0
+  - ipykernel=6.25
+
+  # Machine Learning 
+  - scikit-learn=1.3
+
+  # Utilities
+  - tqdm
+  - joblib
+  - pyyaml
+  - statsmodels=0.14
+
+  # Pip
+  - pip
+  - pip:
+      - tensorflow==2.14
+      - keras==2.14
+      - kaggle
